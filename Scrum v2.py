@@ -8,9 +8,10 @@ rpsArray = ['rock', 'paper', 'scissors']
 def menu():
     print('1) Play Game')
     print('2) Instructions (not done)')
-    print('3) Highscore (not done)')
+    print('3) Highscores')
     print('4) Settings (not done)')
     print('5) Quit')
+    print(' ')
     choice = int(input(''))
     if choice == 1:
         game()
