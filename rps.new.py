@@ -97,7 +97,7 @@ def game():
             else:
                 print('fault')
                 
-   f=open("Highscore.txt","a+")
+    f=open("Highscore.txt","a+")
     f.close()
     f=open("Highscore.txt","r+")
     
